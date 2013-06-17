@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="547967a8-c3bd-41a5-8eb5-62bf1a34d50e" name="Admin@ADMIN-PC 2013-06-17 11:42:57" runUser="Admin-PC\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="73383d59-997e-43b0-8419-a5b20335aa59">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Admin_ADMIN-PC 2013-06-17 11_42_57">
+      <DeploymentItem filename="E:\TestSelenium\SeleniumTest\References\AppacitiveAutomationFramework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-17T11:42:57.9857229+05:30" queuing="2013-06-17T11:43:01.0598988+05:30" start="2013-06-17T11:43:01.1399033+05:30" finish="2013-06-17T11:45:12.4484138+05:30" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ADMIN-PC" outcome="Error" timestamp="2013-06-17T11:45:12.4474137+05:30">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="VerifyControls" storage="e:\testselenium\seleniumtest\seleniumtest\bin\debug\seleniumtest.dll" id="5b5e44c1-2e09-00f7-1732-cfe9a2196f82">
+      <Execution id="d8804ea0-31c1-4d38-a788-cc3296d6be99" />
+      <TestMethod codeBase="E:/TestSelenium/SeleniumTest/SeleniumTest/bin/Debug/SeleniumTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SeleniumTest.UnitTest1, SeleniumTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VerifyControls" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5b5e44c1-2e09-00f7-1732-cfe9a2196f82" executionId="d8804ea0-31c1-4d38-a788-cc3296d6be99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d8804ea0-31c1-4d38-a788-cc3296d6be99" testId="5b5e44c1-2e09-00f7-1732-cfe9a2196f82" testName="VerifyControls" computerName="ADMIN-PC" duration="00:02:11.2375064" startTime="2013-06-17T11:43:01.2109074+05:30" endTime="2013-06-17T11:45:12.4484138+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8804ea0-31c1-4d38-a788-cc3296d6be99">
+    </UnitTestResult>
+  </Results>
+</TestRun>

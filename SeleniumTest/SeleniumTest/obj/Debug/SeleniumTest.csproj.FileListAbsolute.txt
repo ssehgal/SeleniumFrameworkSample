@@ -1,0 +1,12 @@
+E:\TestSelenium\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.dll
+E:\TestSelenium\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.pdb
+E:\TestSelenium\SeleniumTest\SeleniumTest\bin\Debug\AppacitiveAutomationFramework.dll
+E:\TestSelenium\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.dll
+E:\TestSelenium\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.Support.dll
+E:\TestSelenium\SeleniumTest\SeleniumTest\bin\Debug\Newtonsoft.Json.dll
+E:\TestSelenium\SeleniumTest\SeleniumTest\bin\Debug\Ionic.Zip.dll
+E:\TestSelenium\SeleniumTest\SeleniumTest\bin\Debug\Castle.Core.dll
+E:\TestSelenium\SeleniumTest\SeleniumTest\bin\Debug\AppacitiveAutomationFramework.pdb
+E:\TestSelenium\SeleniumTest\SeleniumTest\obj\Debug\ResolveAssemblyReference.cache
+E:\TestSelenium\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.dll
+E:\TestSelenium\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.pdb
