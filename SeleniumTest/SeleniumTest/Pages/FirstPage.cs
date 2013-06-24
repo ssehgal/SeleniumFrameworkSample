@@ -31,16 +31,12 @@ namespace SeleniumTest.Pages
         }
 
 
-        public void ClickOnTab()
+        public void ClickOnTab()// to click on tab we need to find 
         {
-            var tablist = GetUIElementBySelector("tablink");
-            var x=tablist.GetUIElements("tabchild");
-            var c=x[2].GetUIElementBySelector("imagecontrol");
-            c.Click();
-            //var imagetab = tablist[2].GetUIElementBySelector("imagecontrol");
-           // imagetab.GetUIElementBySelector("imagecontrol");
-          //  var control = GetNestedElement(imagetab, "imagecontrol");
-           // control.Click();          
+            var tabBar = GetUIElementBySelector("tablink");
+            var tabLinks=tabBar.GetUIElements("tabchild");
+            var imageAnchorTag = tabLinks[2].GetUIElementBySelector("link");
+            imageAnchorTag.PressEnter();       //clicking on links is sometimes difficult that is why the use of enter
         }
     }
 }
