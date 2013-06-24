@@ -7,7 +7,7 @@ sql
 #Symbols
 
 # mstest test results
-SeleniumTest/TestResults
+.TestResults/
 
 
 # Visual Studio specific and Resharper
