@@ -10,15 +10,6 @@ namespace SeleniumTest
     [TestClass]
     public class AutomationSamples
     {
-        [TestMethod]
-        public void VerifyControls()
-        {
-            using (var app = new TestApp())
-            {
-                app.Launch("http://www.cleartrip.com/");
-                Assert.IsTrue(app.FirstPage.VerifyControlPresent(),"Control was not visible!!");
-            }
-        }
 
         //How to check page title and how to get controls using tags
 
