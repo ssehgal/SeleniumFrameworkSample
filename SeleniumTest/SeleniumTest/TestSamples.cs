@@ -46,5 +46,19 @@ namespace SeleniumTest
                 app.FirstPage.ClickOnTab();
             }
         }
+
+        //How to manage two browser windows and get data from one to another
+
+        [TestMethod]
+        public void LoginWithFacebook()
+        {
+            using (var app = new TestApp())
+            {
+                app.Launch("https://demos.appacitive.com/connect/index.html");
+                app.FirstPage.ClickOnSignInLink();
+                app.FirstPage.ClickOnSignInWithFacebookButton();
+                app.FirstPage.GoToNewWindowAndEnterDetails();
+            }
+        }
     }
 }

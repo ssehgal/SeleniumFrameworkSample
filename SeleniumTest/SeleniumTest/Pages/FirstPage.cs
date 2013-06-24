@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using AppacitiveAutomationFramework;
+using System.Threading;
 
 namespace SeleniumTest.Pages
 {
@@ -37,6 +38,29 @@ namespace SeleniumTest.Pages
             var tabLinks=tabBar.GetUIElements("tabchild");
             var imageAnchorTag = tabLinks[2].GetUIElementBySelector("link"); // nesting demonstration
             imageAnchorTag.PressEnter();    //clicking on links is sometimes difficult that is why the use of enter
+        }
+
+        public void ClickOnSignInLink()
+        {
+            WaitAndGetBySelector("SignUpLink",15).Click();
+            Thread.Sleep(1200);
+        }
+
+        public void ClickOnSignInWithFacebookButton()
+        {
+            WaitAndGetBySelector("btnLoginWithFacebook",10).Click();
+        }
+
+        public void GoToNewWindowAndEnterDetails()
+        {
+            //change/ switch to new window
+            var handles = ReturnWindowHandles();
+            var facebookHandle = handles[1];
+            ChangeCurrentWindow(facebookHandle);
+            //enter details after switching
+            GetUIElementBySelector("email").SendKeys("signups.for.me@gmail.com"); // enter value for email 
+            GetUIElementBySelector("password").SendKeys("1qaz!QAZ"); // enter value for password
+            GetUIElementBySelector("btnLogin").Click(); // click on signup button
         }
     }
 }
