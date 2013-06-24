@@ -33,9 +33,10 @@ namespace SeleniumTest.Pages
 
         public void ClickOnTab()
         {
-            var tablist = GetUIElements("tablink");
-            var imagetab = tablist[2];
-            
+            var tablist = GetUIElementBySelector("tablink");
+            tablist.GetUIElements("tabchild");
+            //var imagetab = tablist[2].GetUIElementBySelector("imagecontrol");
+           // imagetab.GetUIElementBySelector("imagecontrol");
           //  var control = GetNestedElement(imagetab, "imagecontrol");
            // control.Click();          
         }

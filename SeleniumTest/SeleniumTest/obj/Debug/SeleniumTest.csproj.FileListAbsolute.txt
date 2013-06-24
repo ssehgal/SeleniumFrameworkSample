@@ -10,3 +10,5 @@ E:\TestSelenium\SeleniumTest\SeleniumTest\bin\Debug\AppacitiveAutomationFramewor
 E:\TestSelenium\SeleniumTest\SeleniumTest\obj\Debug\ResolveAssemblyReference.cache
 E:\TestSelenium\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.dll
 E:\TestSelenium\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.pdb
+E:\TestSelenium\SeleniumTest\SeleniumTest\bin\Debug\Controls\chromedriver.exe
+E:\TestSelenium\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.dll.config
