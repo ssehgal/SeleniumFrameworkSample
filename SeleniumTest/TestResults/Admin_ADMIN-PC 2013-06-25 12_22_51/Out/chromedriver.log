@@ -1,0 +1,522 @@
+[0.030][INFO]:      ChromeDriver 26.0.1383.0 E:\TestSelenium\SeleniumTest\TestResults\Admin_ADMIN-PC 2013-06-25 12_22_51\Out\chromedriver.exe
+[1.667][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "binary": "",
+      "extensions": [  ]
+   },
+   "javascriptEnabled": true,
+   "platform": "WINDOWS",
+   "version": ""
+}
+
+[1.669][INFO]:      Launching chrome: "C:\Users\Admin\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --ignore-certificate-errors about:blank
+[2.842][INFO]:      Connected to Chrome successfully. Version: 27.0.1453.110
+[2.851][FINE]:      Command received (/session/1af7f9ec189267e2612896a2947e2bf8)
+[2.852][FINE]:      Command finished (/session/1af7f9ec189267e2612896a2947e2bf8) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "27.0.1453.110",
+      "webStorageEnabled": true
+   }
+}
+
+[2.961][FINE]:      Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window/current/maximize)
+[2.961][FINER]:     Waiting for all views to stop loading...
+[2.961][FINER]:     Done waiting for all views to stop loading
+[2.971][FINER]:     Waiting for all views to stop loading...
+[3.023][FINER]:     Done waiting for all views to stop loading
+[3.023][FINE]:      Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window/current/maximize) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[3.375][FINE]:      Command received (/session/1af7f9ec189267e2612896a2947e2bf8/url) with params {
+   "url": "https://demos.appacitive.com/connect/index.html"
+}
+
+[3.375][FINER]:     Waiting for all views to stop loading...
+[3.375][FINER]:     Done waiting for all views to stop loading
+[29.683][FINER]:    Waiting for all views to stop loading...
+[29.685][FINER]:    Done waiting for all views to stop loading
+[29.685][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/url) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[29.696][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/element) with params {
+   "using": "css selector",
+   "value": "#ulSignUp"
+}
+
+[29.696][FINER]:    Waiting for all views to stop loading...
+[29.697][FINER]:    Done waiting for all views to stop loading
+[29.725][FINER]:    Waiting for all views to stop loading...
+[29.725][FINER]:    Done waiting for all views to stop loading
+[29.725][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/element) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1372143204587"
+   }
+}
+
+[29.731][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/moveto) with params {
+   "element": ":wdc:1372143204587"
+}
+
+[29.731][FINER]:    Waiting for all views to stop loading...
+[29.731][FINER]:    Done waiting for all views to stop loading
+[29.747][FINER]:    Waiting for all views to stop loading...
+[29.748][FINER]:    Done waiting for all views to stop loading
+[29.748][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/moveto) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[29.749][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/moveto) with params {
+   "element": ":wdc:1372143204587"
+}
+
+[29.749][FINER]:    Waiting for all views to stop loading...
+[29.749][FINER]:    Done waiting for all views to stop loading
+[29.756][FINER]:    Waiting for all views to stop loading...
+[29.756][FINER]:    Done waiting for all views to stop loading
+[29.757][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/moveto) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[29.759][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/moveto) with params {
+   "element": ":wdc:1372143204587"
+}
+
+[29.759][FINER]:    Waiting for all views to stop loading...
+[29.759][FINER]:    Done waiting for all views to stop loading
+[29.768][FINER]:    Waiting for all views to stop loading...
+[29.768][FINER]:    Done waiting for all views to stop loading
+[29.768][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/moveto) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[29.770][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/click) with params {
+   "button": 0
+}
+
+[29.770][FINER]:    Waiting for all views to stop loading...
+[29.770][FINER]:    Done waiting for all views to stop loading
+[29.774][FINER]:    Waiting for all views to stop loading...
+[29.774][FINER]:    Done waiting for all views to stop loading
+[29.774][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/click) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[30.976][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/element) with params {
+   "using": "css selector",
+   "value": "#btnLogin"
+}
+
+[30.976][FINER]:    Waiting for all views to stop loading...
+[30.977][FINER]:    Done waiting for all views to stop loading
+[31.030][FINER]:    Waiting for all views to stop loading...
+[31.030][FINER]:    Done waiting for all views to stop loading
+[31.030][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/element) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1372143204588"
+   }
+}
+
+[31.031][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/moveto) with params {
+   "element": ":wdc:1372143204588"
+}
+
+[31.031][FINER]:    Waiting for all views to stop loading...
+[31.031][FINER]:    Done waiting for all views to stop loading
+[31.050][FINER]:    Waiting for all views to stop loading...
+[31.051][FINER]:    Done waiting for all views to stop loading
+[31.051][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/moveto) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[31.052][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/moveto) with params {
+   "element": ":wdc:1372143204588"
+}
+
+[31.052][FINER]:    Waiting for all views to stop loading...
+[31.052][FINER]:    Done waiting for all views to stop loading
+[31.067][FINER]:    Waiting for all views to stop loading...
+[31.067][FINER]:    Done waiting for all views to stop loading
+[31.067][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/moveto) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[31.068][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/moveto) with params {
+   "element": ":wdc:1372143204588"
+}
+
+[31.068][FINER]:    Waiting for all views to stop loading...
+[31.068][FINER]:    Done waiting for all views to stop loading
+[31.077][FINER]:    Waiting for all views to stop loading...
+[31.077][FINER]:    Done waiting for all views to stop loading
+[31.077][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/moveto) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[31.079][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/click) with params {
+   "button": 0
+}
+
+[31.079][FINER]:    Waiting for all views to stop loading...
+[31.079][FINER]:    Done waiting for all views to stop loading
+[31.086][FINER]:    Waiting for all views to stop loading...
+[31.087][FINER]:    Done waiting for all views to stop loading
+[31.087][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/click) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[36.036][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles)
+[36.036][FINER]:    Waiting for all views to stop loading...
+[36.041][FINER]:    Done waiting for all views to stop loading
+[36.042][FINER]:    Waiting for all views to stop loading...
+[36.042][FINER]:    Done waiting for all views to stop loading
+[36.042][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": [ "f1-2", "f1-4" ]
+}
+
+[36.045][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles)
+[36.046][FINER]:    Waiting for all views to stop loading...
+[36.046][FINER]:    Done waiting for all views to stop loading
+[36.047][FINER]:    Waiting for all views to stop loading...
+[36.047][FINER]:    Done waiting for all views to stop loading
+[36.047][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": [ "f1-2", "f1-4" ]
+}
+
+[36.049][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window) with params {
+   "name": "f1-2"
+}
+
+[36.050][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[36.052][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/title)
+[36.053][FINER]:    Waiting for all views to stop loading...
+[36.054][FINER]:    Done waiting for all views to stop loading
+[36.059][FINER]:    Waiting for all views to stop loading...
+[36.059][FINER]:    Done waiting for all views to stop loading
+[36.059][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/title) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": "Connect"
+}
+
+[36.060][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles)
+[36.060][FINER]:    Waiting for all views to stop loading...
+[36.061][FINER]:    Done waiting for all views to stop loading
+[36.061][FINER]:    Waiting for all views to stop loading...
+[36.061][FINER]:    Done waiting for all views to stop loading
+[36.061][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": [ "f1-2", "f1-4" ]
+}
+
+[36.062][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles)
+[36.062][FINER]:    Waiting for all views to stop loading...
+[36.062][FINER]:    Done waiting for all views to stop loading
+[36.062][FINER]:    Waiting for all views to stop loading...
+[36.062][FINER]:    Done waiting for all views to stop loading
+[36.062][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": [ "f1-2", "f1-4" ]
+}
+
+[36.063][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles)
+[36.063][FINER]:    Waiting for all views to stop loading...
+[36.063][FINER]:    Done waiting for all views to stop loading
+[36.063][FINER]:    Waiting for all views to stop loading...
+[36.064][FINER]:    Done waiting for all views to stop loading
+[36.064][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": [ "f1-2", "f1-4" ]
+}
+
+[36.064][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window) with params {
+   "name": "f1-4"
+}
+
+[36.065][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[36.065][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/title)
+[36.065][FINER]:    Waiting for all views to stop loading...
+[36.065][FINER]:    Done waiting for all views to stop loading
+[36.068][FINER]:    Waiting for all views to stop loading...
+[36.068][FINER]:    Done waiting for all views to stop loading
+[36.068][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/title) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": "Facebook"
+}
+
+[36.069][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles)
+[36.069][FINER]:    Waiting for all views to stop loading...
+[36.069][FINER]:    Done waiting for all views to stop loading
+[36.069][FINER]:    Waiting for all views to stop loading...
+[36.069][FINER]:    Done waiting for all views to stop loading
+[36.070][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": [ "f1-2", "f1-4" ]
+}
+
+[36.070][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles)
+[36.070][FINER]:    Waiting for all views to stop loading...
+[36.071][FINER]:    Done waiting for all views to stop loading
+[36.071][FINER]:    Waiting for all views to stop loading...
+[36.071][FINER]:    Done waiting for all views to stop loading
+[36.071][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": [ "f1-2", "f1-4" ]
+}
+
+[69.709][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles)
+[69.709][FINER]:    Waiting for all views to stop loading...
+[69.711][FINER]:    Done waiting for all views to stop loading
+[69.711][FINER]:    Waiting for all views to stop loading...
+[69.711][FINER]:    Done waiting for all views to stop loading
+[69.711][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": [ "f1-2", "f1-4" ]
+}
+
+[69.718][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles)
+[69.718][FINER]:    Waiting for all views to stop loading...
+[69.718][FINER]:    Done waiting for all views to stop loading
+[69.718][FINER]:    Waiting for all views to stop loading...
+[69.718][FINER]:    Done waiting for all views to stop loading
+[69.718][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": [ "f1-2", "f1-4" ]
+}
+
+[69.719][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window) with params {
+   "name": "f1-2"
+}
+
+[69.720][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[69.720][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/title)
+[69.720][FINER]:    Waiting for all views to stop loading...
+[69.722][FINER]:    Done waiting for all views to stop loading
+[69.726][FINER]:    Waiting for all views to stop loading...
+[69.727][FINER]:    Done waiting for all views to stop loading
+[69.727][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/title) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": "Connect"
+}
+
+[69.728][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles)
+[69.728][FINER]:    Waiting for all views to stop loading...
+[69.728][FINER]:    Done waiting for all views to stop loading
+[69.728][FINER]:    Waiting for all views to stop loading...
+[69.728][FINER]:    Done waiting for all views to stop loading
+[69.728][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": [ "f1-2", "f1-4" ]
+}
+
+[69.729][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles)
+[69.729][FINER]:    Waiting for all views to stop loading...
+[69.729][FINER]:    Done waiting for all views to stop loading
+[69.729][FINER]:    Waiting for all views to stop loading...
+[69.730][FINER]:    Done waiting for all views to stop loading
+[69.730][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": [ "f1-2", "f1-4" ]
+}
+
+[69.731][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles)
+[69.731][FINER]:    Waiting for all views to stop loading...
+[69.731][FINER]:    Done waiting for all views to stop loading
+[69.732][FINER]:    Waiting for all views to stop loading...
+[69.732][FINER]:    Done waiting for all views to stop loading
+[69.732][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": [ "f1-2", "f1-4" ]
+}
+
+[69.733][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window) with params {
+   "name": "f1-4"
+}
+
+[69.733][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[69.734][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/title)
+[69.734][FINER]:    Waiting for all views to stop loading...
+[69.734][FINER]:    Done waiting for all views to stop loading
+[69.736][FINER]:    Waiting for all views to stop loading...
+[69.736][FINER]:    Done waiting for all views to stop loading
+[69.736][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/title) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": "Facebook"
+}
+
+[69.737][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles)
+[69.737][FINER]:    Waiting for all views to stop loading...
+[69.738][FINER]:    Done waiting for all views to stop loading
+[69.738][FINER]:    Waiting for all views to stop loading...
+[69.738][FINER]:    Done waiting for all views to stop loading
+[69.738][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": [ "f1-2", "f1-4" ]
+}
+
+[69.739][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles)
+[69.739][FINER]:    Waiting for all views to stop loading...
+[69.739][FINER]:    Done waiting for all views to stop loading
+[69.739][FINER]:    Waiting for all views to stop loading...
+[69.739][FINER]:    Done waiting for all views to stop loading
+[69.739][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window_handles) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": [ "f1-2", "f1-4" ]
+}
+
+[69.740][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/window) with params {
+   "name": "f1-4"
+}
+
+[69.740][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/window) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[74.530][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/element) with params {
+   "using": "css selector",
+   "value": "#email"
+}
+
+[74.530][FINER]:    Waiting for all views to stop loading...
+[74.530][FINER]:    Done waiting for all views to stop loading
+[74.568][FINER]:    Waiting for all views to stop loading...
+[74.568][FINER]:    Done waiting for all views to stop loading
+[74.568][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/element) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1372143249429"
+   }
+}
+
+[74.632][FINE]:     Command received (/session/1af7f9ec189267e2612896a2947e2bf8/element/:wdc:1372143249429/value) with params {
+   "value": [ "s", "i", "g", "n", "u", "p", "s", ".", "f", "o", "r", ".", "m", "e", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m" ]
+}
+
+[74.632][FINER]:    Waiting for all views to stop loading...
+[74.633][FINER]:    Done waiting for all views to stop loading
+[75.012][FINER]:    Waiting for all views to stop loading...
+[75.012][FINER]:    Done waiting for all views to stop loading
+[75.012][FINE]:     Command finished (/session/1af7f9ec189267e2612896a2947e2bf8/element/:wdc:1372143249429/value) with response {
+   "sessionId": "1af7f9ec189267e2612896a2947e2bf8",
+   "status": 0,
+   "value": {
+
+   }
+}
+

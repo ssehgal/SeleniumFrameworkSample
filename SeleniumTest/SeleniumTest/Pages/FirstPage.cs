@@ -32,7 +32,7 @@ namespace SeleniumTest.Pages
         }
 
 
-        public void ClickOnTab() // to click on tab we need to find 
+        public void SwitchToImageLink() // to click on tab we need to find 
         {
             var tabBar = GetUIElementBySelector("tablink");
             var tabLinks=tabBar.GetUIElements("tabchild");
@@ -51,12 +51,25 @@ namespace SeleniumTest.Pages
             WaitAndGetBySelector("btnLoginWithFacebook",10).Click();
         }
 
-        public void GoToNewWindowAndEnterDetails()
+        public void GoToNewWindowUsingTitle()
+        {
+            //change/ switch to new window
+            var check = ReturnWindowHandlesWithTitles();
+            ChangeCurrentWindow("Facebook");        
+           
+            //enter details after switching
+            GetUIElementBySelector("email").SendKeys("signups.for.me@gmail.com"); // enter value for email 
+            GetUIElementBySelector("password").SendKeys("1qaz!QAZ"); // enter value for password
+            GetUIElementBySelector("btnLogin").Click(); // click on signup button
+        }
+
+        public void GoToNewWindowUsingIndex()
         {
             //change/ switch to new window
             var handles = ReturnWindowHandles();
             var facebookHandle = handles[1];
             ChangeCurrentWindow(facebookHandle);
+
             //enter details after switching
             GetUIElementBySelector("email").SendKeys("signups.for.me@gmail.com"); // enter value for email 
             GetUIElementBySelector("password").SendKeys("1qaz!QAZ"); // enter value for password

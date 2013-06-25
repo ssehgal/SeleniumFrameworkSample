@@ -35,29 +35,56 @@ namespace SeleniumTest
             }
         }
 
+
+        //How to select element from a drop down (elements with same classname/ id)
+
+        [TestMethod]
+        public void HowToSelectAnElementFromADropDown()
+        {
+            using (var app = new TestApp())
+            {
+
+            }
+        }
+
+
         //How to change tab (clicking on link) and use class name and tag name to get selector use of nesting 
 
         [TestMethod]
-        public void HowTohangeTabs()
+        public void HowToSwitchLinks()
         {
             using (var app = new TestApp())
             {
                 app.Launch("https://www.google.co.in/");
-                app.FirstPage.ClickOnTab();
+                app.FirstPage.SwitchToImageLink();
             }
         }
 
         //How to manage two browser windows and get data from one to another
-
+                    // switching windows using page title
         [TestMethod]
-        public void LoginWithFacebook()
+        public void ManageWindowsUsingTitle()
         {
             using (var app = new TestApp())
             {
                 app.Launch("https://demos.appacitive.com/connect/index.html");
                 app.FirstPage.ClickOnSignInLink();
                 app.FirstPage.ClickOnSignInWithFacebookButton();
-                app.FirstPage.GoToNewWindowAndEnterDetails();
+                app.FirstPage.GoToNewWindowUsingTitle();
+            }
+        }
+
+        // switching windows using window handle
+
+        [TestMethod]
+        public void ManageWindowsUsingIndex()
+        {
+            using (var app = new TestApp())
+            {
+                app.Launch("https://demos.appacitive.com/connect/index.html");
+                app.FirstPage.ClickOnSignInLink();
+                app.FirstPage.ClickOnSignInWithFacebookButton();
+                app.FirstPage.GoToNewWindowUsingIndex();
             }
         }
     }
