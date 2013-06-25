@@ -1,0 +1,119 @@
+[0.001][INFO]:      ChromeDriver 26.0.1383.0 E:\TestSelenium\SeleniumTest\TestResults\Admin_ADMIN-PC 2013-06-25 15_32_31\Out\chromedriver.exe
+[1.768][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "binary": "",
+      "extensions": [  ]
+   },
+   "javascriptEnabled": true,
+   "platform": "WINDOWS",
+   "version": ""
+}
+
+[1.769][INFO]:      Launching chrome: "C:\Users\Admin\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --ignore-certificate-errors about:blank
+[2.194][INFO]:      Connected to Chrome successfully. Version: 27.0.1453.110
+[2.199][FINE]:      Command received (/session/8cf2150dc3dbb26d46434e7dc1b33b84)
+[2.200][FINE]:      Command finished (/session/8cf2150dc3dbb26d46434e7dc1b33b84) with response {
+   "sessionId": "8cf2150dc3dbb26d46434e7dc1b33b84",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "27.0.1453.110",
+      "webStorageEnabled": true
+   }
+}
+
+[2.325][FINE]:      Command received (/session/8cf2150dc3dbb26d46434e7dc1b33b84/window/current/maximize)
+[2.325][FINER]:     Waiting for all views to stop loading...
+[2.325][FINER]:     Done waiting for all views to stop loading
+[2.358][FINER]:     Waiting for all views to stop loading...
+[2.384][FINER]:     Done waiting for all views to stop loading
+[2.384][FINE]:      Command finished (/session/8cf2150dc3dbb26d46434e7dc1b33b84/window/current/maximize) with response {
+   "sessionId": "8cf2150dc3dbb26d46434e7dc1b33b84",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[2.737][FINE]:      Command received (/session/8cf2150dc3dbb26d46434e7dc1b33b84/url) with params {
+   "url": "http://www.cleartrip.com/"
+}
+
+[2.737][FINER]:     Waiting for all views to stop loading...
+[2.737][FINER]:     Done waiting for all views to stop loading
+[23.488][FINER]:    Waiting for all views to stop loading...
+[23.491][FINER]:    Done waiting for all views to stop loading
+[23.491][FINE]:     Command finished (/session/8cf2150dc3dbb26d46434e7dc1b33b84/url) with response {
+   "sessionId": "8cf2150dc3dbb26d46434e7dc1b33b84",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[23.504][FINE]:     Command received (/session/8cf2150dc3dbb26d46434e7dc1b33b84/element) with params {
+   "using": "css selector",
+   "value": "#Adults"
+}
+
+[23.504][FINER]:    Waiting for all views to stop loading...
+[23.505][FINER]:    Done waiting for all views to stop loading
+[23.537][FINER]:    Waiting for all views to stop loading...
+[23.537][FINER]:    Done waiting for all views to stop loading
+[23.537][FINE]:     Command finished (/session/8cf2150dc3dbb26d46434e7dc1b33b84/element) with response {
+   "sessionId": "8cf2150dc3dbb26d46434e7dc1b33b84",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1372154578970"
+   }
+}
+
+[24.543][FINE]:     Command received (/session/8cf2150dc3dbb26d46434e7dc1b33b84/element/:wdc:1372154578970/elements) with params {
+   "using": "css selector",
+   "value": "option"
+}
+
+[24.543][FINER]:    Waiting for all views to stop loading...
+[24.543][FINER]:    Done waiting for all views to stop loading
+[24.584][FINER]:    Waiting for all views to stop loading...
+[24.585][FINER]:    Done waiting for all views to stop loading
+[24.585][FINE]:     Command finished (/session/8cf2150dc3dbb26d46434e7dc1b33b84/element/:wdc:1372154578970/elements) with response {
+   "sessionId": "8cf2150dc3dbb26d46434e7dc1b33b84",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1372154578971"
+   }, {
+      "ELEMENT": ":wdc:1372154578972"
+   }, {
+      "ELEMENT": ":wdc:1372154578973"
+   }, {
+      "ELEMENT": ":wdc:1372154578974"
+   }, {
+      "ELEMENT": ":wdc:1372154578975"
+   }, {
+      "ELEMENT": ":wdc:1372154578976"
+   }, {
+      "ELEMENT": ":wdc:1372154578977"
+   }, {
+      "ELEMENT": ":wdc:1372154578978"
+   }, {
+      "ELEMENT": ":wdc:1372154578979"
+   } ]
+}
+
