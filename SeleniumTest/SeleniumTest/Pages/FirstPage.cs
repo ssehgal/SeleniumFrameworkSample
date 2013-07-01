@@ -31,6 +31,11 @@ namespace SeleniumTest.Pages
             GetUIElementBySelector("SearchBtn").Click();
         }
 
+        public void EnterTextIntoFromTextBox()
+        {
+            GetUIElementBySelector("FromTextboxControl").SendKeys("Pune");
+        }
+
 
         public void SwitchToImageLink() // to click on tab we need to find 
         {
@@ -85,7 +90,13 @@ namespace SeleniumTest.Pages
 
         public void SelectByMatchingPartialLinkText()
         {
+            //tries to get the link whose partial text is "Tell us what"
             MatchByPartialLinkText("Tell us what").Click();
+        }
+
+        public void ClickOnRadioButton()
+        {
+            GetUIElementBySelector("rdbRoundTrip").Click();
         }
     }
 }

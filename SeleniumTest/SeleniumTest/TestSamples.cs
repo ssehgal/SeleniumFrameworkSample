@@ -35,6 +35,30 @@ namespace SeleniumTest
             }
         }
 
+        //How to enter text into a textbox
+
+        [TestMethod]
+        public void HowToEnterTextInToATextBox()
+        {
+            using (var app = new TestApp())
+            {
+                app.Launch("http://www.cleartrip.com/");
+                app.FirstPage.EnterTextIntoFromTextBox();
+            }
+        }
+
+        //How to click on radio button
+
+        [TestMethod]
+        public void HowToClickOnARadioButton()
+        {
+            using (var app = new TestApp())
+            {
+                app.Launch("http://www.cleartrip.com/");
+                app.FirstPage.ClickOnRadioButton();
+            }
+        }
+
 
         //How to select element from a drop down (elements with same classname/ id)
 
