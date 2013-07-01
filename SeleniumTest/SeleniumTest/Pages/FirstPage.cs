@@ -82,5 +82,10 @@ namespace SeleniumTest.Pages
             var valueToBeSelected = elements[2].Text;
             GetUIElementBySelector("AdultsDropDown").SendKeys(valueToBeSelected);
         }
+
+        public void SelectByMatchingPartialLinkText()
+        {
+            MatchByPartialLinkText("Tell us what you").Click();
+        }
     }
 }
