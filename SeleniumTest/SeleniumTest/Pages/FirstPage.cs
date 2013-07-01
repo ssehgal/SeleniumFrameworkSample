@@ -85,7 +85,7 @@ namespace SeleniumTest.Pages
 
         public void SelectByMatchingPartialLinkText()
         {
-            MatchByPartialLinkText("Tell us what you").Click();
+            MatchByPartialLinkText("Tell us what").Click();
         }
     }
 }
