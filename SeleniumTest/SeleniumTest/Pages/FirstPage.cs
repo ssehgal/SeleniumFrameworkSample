@@ -75,5 +75,12 @@ namespace SeleniumTest.Pages
             GetUIElementBySelector("password").SendKeys("1qaz!QAZ"); // enter value for password
             GetUIElementBySelector("btnLogin").Click(); // click on signup button
         }
+
+        public void SelectValueFromDropDown()
+        {
+            var elements=GetUIElementBySelector("AdultsDropDown").GetUIElements("Options");
+            var valueToBeSelected = elements[2].Text;
+            GetUIElementBySelector("AdultsDropDown").SendKeys(valueToBeSelected);
+        }
     }
 }

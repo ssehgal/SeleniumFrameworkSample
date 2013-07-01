@@ -43,7 +43,8 @@ namespace SeleniumTest
         {
             using (var app = new TestApp())
             {
-
+                app.Launch("http://www.cleartrip.com/");
+                app.FirstPage.SelectValueFromDropDown();
             }
         }
 
