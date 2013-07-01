@@ -88,5 +88,17 @@ namespace SeleniumTest
                 app.FirstPage.GoToNewWindowUsingIndex();
             }
         }
+
+        // clicking on a link by matching the partial text
+
+        [TestMethod]
+        public void SelectALinkUsingPartialMatch()
+        {
+            using (var app = new TestApp())
+            {
+                app.Launch("http://www.cleartrip.com/");
+                app.FirstPage.SelectByMatchingPartialLinkText();
+            }
+        }
     }
 }

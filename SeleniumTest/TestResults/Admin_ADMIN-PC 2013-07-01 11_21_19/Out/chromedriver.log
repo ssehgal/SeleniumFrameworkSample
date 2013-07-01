@@ -1,0 +1,150 @@
+[-0.000][INFO]:     ChromeDriver 26.0.1383.0 E:\TestSelenium\SeleniumTest\TestResults\Admin_ADMIN-PC 2013-07-01 11_21_19\Out\chromedriver.exe
+[3.144][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "binary": "",
+      "extensions": [  ]
+   },
+   "javascriptEnabled": true,
+   "platform": "WINDOWS",
+   "version": ""
+}
+
+[3.145][INFO]:      Launching chrome: "C:\Users\Admin\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --ignore-certificate-errors about:blank
+[6.713][INFO]:      Connected to Chrome successfully. Version: 27.0.1453.110
+[6.845][FINE]:      Command received (/session/7896cc9c8218e72738c2a2cb5b1faaa6)
+[6.845][FINE]:      Command finished (/session/7896cc9c8218e72738c2a2cb5b1faaa6) with response {
+   "sessionId": "7896cc9c8218e72738c2a2cb5b1faaa6",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "27.0.1453.110",
+      "webStorageEnabled": true
+   }
+}
+
+[7.249][FINE]:      Command received (/session/7896cc9c8218e72738c2a2cb5b1faaa6/window/current/maximize)
+[7.249][FINER]:     Waiting for all views to stop loading...
+[7.250][FINER]:     Done waiting for all views to stop loading
+[7.279][FINER]:     Waiting for all views to stop loading...
+[7.282][FINER]:     Done waiting for all views to stop loading
+[7.283][FINE]:      Command finished (/session/7896cc9c8218e72738c2a2cb5b1faaa6/window/current/maximize) with response {
+   "sessionId": "7896cc9c8218e72738c2a2cb5b1faaa6",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[7.642][FINE]:      Command received (/session/7896cc9c8218e72738c2a2cb5b1faaa6/url) with params {
+   "url": "http://www.cleartrip.com/"
+}
+
+[7.642][FINER]:     Waiting for all views to stop loading...
+[7.643][FINER]:     Done waiting for all views to stop loading
+[19.645][FINER]:    Waiting for all views to stop loading...
+[19.647][FINER]:    Done waiting for all views to stop loading
+[19.648][FINE]:     Command finished (/session/7896cc9c8218e72738c2a2cb5b1faaa6/url) with response {
+   "sessionId": "7896cc9c8218e72738c2a2cb5b1faaa6",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[48.564][FINE]:     Command received (/session/7896cc9c8218e72738c2a2cb5b1faaa6/element) with params {
+   "using": "partial link text",
+   "value": "Tell us what you"
+}
+
+[48.564][FINER]:    Waiting for all views to stop loading...
+[48.565][FINER]:    Done waiting for all views to stop loading
+[48.648][FINER]:    Waiting for all views to stop loading...
+[48.649][FINER]:    Done waiting for all views to stop loading
+[48.649][FINE]:     Command finished (/session/7896cc9c8218e72738c2a2cb5b1faaa6/element) with response {
+   "sessionId": "7896cc9c8218e72738c2a2cb5b1faaa6",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1372657951335"
+   }
+}
+
+[50.666][FINE]:     Command received (/session/7896cc9c8218e72738c2a2cb5b1faaa6/moveto) with params {
+   "element": ":wdc:1372657951335"
+}
+
+[50.666][FINER]:    Waiting for all views to stop loading...
+[50.667][FINER]:    Done waiting for all views to stop loading
+[50.721][FINER]:    Waiting for all views to stop loading...
+[50.721][FINER]:    Done waiting for all views to stop loading
+[50.721][FINE]:     Command finished (/session/7896cc9c8218e72738c2a2cb5b1faaa6/moveto) with response {
+   "sessionId": "7896cc9c8218e72738c2a2cb5b1faaa6",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[50.725][FINE]:     Command received (/session/7896cc9c8218e72738c2a2cb5b1faaa6/moveto) with params {
+   "element": ":wdc:1372657951335"
+}
+
+[50.725][FINER]:    Waiting for all views to stop loading...
+[50.727][FINER]:    Done waiting for all views to stop loading
+[50.757][FINER]:    Waiting for all views to stop loading...
+[50.758][FINER]:    Done waiting for all views to stop loading
+[50.758][FINE]:     Command finished (/session/7896cc9c8218e72738c2a2cb5b1faaa6/moveto) with response {
+   "sessionId": "7896cc9c8218e72738c2a2cb5b1faaa6",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[50.760][FINE]:     Command received (/session/7896cc9c8218e72738c2a2cb5b1faaa6/moveto) with params {
+   "element": ":wdc:1372657951335"
+}
+
+[50.760][FINER]:    Waiting for all views to stop loading...
+[50.760][FINER]:    Done waiting for all views to stop loading
+[50.778][FINER]:    Waiting for all views to stop loading...
+[50.778][FINER]:    Done waiting for all views to stop loading
+[50.778][FINE]:     Command finished (/session/7896cc9c8218e72738c2a2cb5b1faaa6/moveto) with response {
+   "sessionId": "7896cc9c8218e72738c2a2cb5b1faaa6",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[50.784][FINE]:     Command received (/session/7896cc9c8218e72738c2a2cb5b1faaa6/click) with params {
+   "button": 0
+}
+
+[50.784][FINER]:    Waiting for all views to stop loading...
+[50.784][FINER]:    Done waiting for all views to stop loading
+[50.882][FINER]:    Waiting for all views to stop loading...
+[57.101][FINER]:    Done waiting for all views to stop loading
+[57.101][FINE]:     Command finished (/session/7896cc9c8218e72738c2a2cb5b1faaa6/click) with response {
+   "sessionId": "7896cc9c8218e72738c2a2cb5b1faaa6",
+   "status": 0,
+   "value": {
+
+   }
+}
+
